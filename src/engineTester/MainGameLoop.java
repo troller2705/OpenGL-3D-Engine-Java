@@ -32,7 +32,7 @@ public class MainGameLoop
         List<Entity> entities = new ArrayList<Entity>();
         Random random = new Random();
         for(int i=0;i<500;i++){
-            entities.add(new Entity(staticModel, new Vector3f(random.nextFloat()*800 - 400,0,random.nextFloat() * -600),0,0,0,3));
+            entities.add(new Entity(staticModel, new Vector3f(random.nextFloat()*800 - 400,0,random.nextFloat()*800 - 400),0,0,0,3));
         }
 
         Light light = new Light(new Vector3f(20000,20000,2000),new Vector3f(1,1,1));
